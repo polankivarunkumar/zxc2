@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="CoreData_1_0" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="M2r-bC-rTE">
+                                <rect key="frame" x="20.666666666666657" y="73.666666666666657" width="372.66666666666674" height="294.33333333333337"/>
+                                <subviews>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" clearsOnBeginEditing="YES" minimumFontSize="17" clearButtonMode="always" translatesAutoresizingMaskIntoConstraints="NO" id="vfB-c1-B1J">
+                                        <rect key="frame" x="0.0" y="0.0" width="372.66666666666669" height="51"/>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" clearsOnBeginEditing="YES" minimumFontSize="17" clearButtonMode="always" translatesAutoresizingMaskIntoConstraints="NO" id="IbW-8j-gIu">
+                                        <rect key="frame" x="0.0" y="80.999999999999986" width="372.66666666666669" height="51.333333333333329"/>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" clearsOnBeginEditing="YES" minimumFontSize="17" clearButtonMode="always" translatesAutoresizingMaskIntoConstraints="NO" id="9Ae-zW-VHa">
+                                        <rect key="frame" x="0.0" y="162.33333333333331" width="372.66666666666669" height="51"/>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" clearsOnBeginEditing="YES" minimumFontSize="17" clearButtonMode="always" translatesAutoresizingMaskIntoConstraints="NO" id="o0g-Zm-i3q">
+                                        <rect key="frame" x="0.0" y="243.33333333333331" width="372.66666666666669" height="51"/>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                </subviews>
+                                <variation key="heightClass=compact-widthClass=compact" spacing="8"/>
+                                <variation key="heightClass=compact-widthClass=regular" spacing="8"/>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="50M-wl-n2J">
+                                <rect key="frame" x="20.666666666666657" y="633" width="372.66666666666674" height="58.666666666666629"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T62-8z-17k">
+                                        <rect key="frame" x="0.0" y="0.0" width="117.66666666666667" height="58.666666666666664"/>
+                                        <color key="backgroundColor" red="0.27587386748869014" green="0.70173012879952135" blue="0.9030521373" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="20"/>
+                                        <state key="normal" title="student">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="studentTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Kyf-wi-BIl"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2la-mN-EFv">
+                                        <rect key="frame" x="127.66666666666669" y="0.0" width="117.33333333333331" height="58.666666666666664"/>
+                                        <color key="backgroundColor" red="0.27587386748869014" green="0.70173012879952135" blue="0.9030521373" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="20"/>
+                                        <state key="normal" title="teacher">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="techerTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0Tj-gy-jer"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9V0-X7-1BK">
+                                        <rect key="frame" x="255.00000000000003" y="0.0" width="117.66666666666666" height="58.666666666666664"/>
+                                        <color key="backgroundColor" red="0.27587386748869014" green="0.70173012879952135" blue="0.9030521373" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="20"/>
+                                        <state key="normal" title="retrive">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="retrive:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0LN-J9-y7D"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Hu5-7D-OWA">
+                                <rect key="frame" x="20.666666666666657" y="453.66666666666669" width="372.66666666666674" height="123.33333333333331"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="50M-wl-n2J" firstAttribute="width" secondItem="M2r-bC-rTE" secondAttribute="width" id="Bun-go-3Ra"/>
+                            <constraint firstItem="M2r-bC-rTE" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.4" id="CW1-lm-8Pu"/>
+                            <constraint firstItem="M2r-bC-rTE" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" multiplier="0.6" id="Mfi-ze-3GL"/>
+                            <constraint firstItem="Hu5-7D-OWA" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" multiplier="1.4" id="df2-hf-xMd"/>
+                            <constraint firstItem="50M-wl-n2J" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="hGb-b7-yYr"/>
+                            <constraint firstItem="Hu5-7D-OWA" firstAttribute="width" secondItem="50M-wl-n2J" secondAttribute="width" id="hTL-hV-3ff"/>
+                            <constraint firstItem="Hu5-7D-OWA" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="hqG-mT-OD5"/>
+                            <constraint firstItem="50M-wl-n2J" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" multiplier="1.8" id="kDu-2c-fEa"/>
+                            <constraint firstItem="M2r-bC-rTE" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.9" id="l5n-Nz-fPY"/>
+                            <constraint firstItem="50M-wl-n2J" firstAttribute="height" secondItem="M2r-bC-rTE" secondAttribute="height" multiplier="0.2" id="pez-qq-4HT"/>
+                            <constraint firstItem="M2r-bC-rTE" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="uln-Hd-PsA"/>
+                            <constraint firstItem="Hu5-7D-OWA" firstAttribute="height" secondItem="50M-wl-n2J" secondAttribute="height" multiplier="2.1" id="vJE-lP-Oun">
+                                <variation key="heightClass=compact-widthClass=compact" constant="14"/>
+                                <variation key="heightClass=compact-widthClass=regular" constant="14"/>
+                            </constraint>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="TF1" destination="vfB-c1-B1J" id="g3M-nA-x6p"/>
+                        <outlet property="TF2" destination="IbW-8j-gIu" id="nka-yI-kjJ"/>
+                        <outlet property="TF3" destination="9Ae-zW-VHa" id="8Ls-h3-F3t"/>
+                        <outlet property="TF4" destination="o0g-Zm-i3q" id="gEn-kP-4sK"/>
+                        <outlet property="printTV" destination="Hu5-7D-OWA" id="wZG-cM-5CD"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="117.59999999999999" y="117.39130434782609"/>
+        </scene>
+    </scenes>
+</document>
